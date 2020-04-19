@@ -830,3 +830,14 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_OilPlatform::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_OilPlatform
+	.4byte gTilesetPalettes_OilPlatform
+	.4byte gMetatiles_OilPlatform
+	.4byte gMetatileAttributes_OilPlatform
+	.4byte NULL

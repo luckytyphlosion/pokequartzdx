@@ -183,7 +183,7 @@
         {
             "blockdata_filepath": "data/layouts/Route103/map.bin",
             "border_filepath": "data/layouts/Route103/border.bin",
-            "height": 22,
+            "height": 20,
             "id": "LAYOUT_ROUTE103",
             "name": "Route103_Layout",
             "primary_tileset": "gTileset_General",
@@ -683,22 +683,22 @@
         {
             "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_1F/map.bin",
             "border_filepath": "data/layouts/LavaridgeTown_Gym_1F/border.bin",
-            "height": 19,
+            "height": 24,
             "id": "LAYOUT_LAVARIDGE_TOWN_GYM_1F",
             "name": "LavaridgeTown_Gym_1F_Layout",
             "primary_tileset": "gTileset_Building",
             "secondary_tileset": "gTileset_LavaridgeGym",
-            "width": 17
+            "width": 11
         },
         {
             "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_B1F/map.bin",
             "border_filepath": "data/layouts/LavaridgeTown_Gym_B1F/border.bin",
-            "height": 19,
+            "height": 24,
             "id": "LAYOUT_LAVARIDGE_TOWN_GYM_B1F",
             "name": "LavaridgeTown_Gym_B1F_Layout",
             "primary_tileset": "gTileset_Building",
             "secondary_tileset": "gTileset_LavaridgeGym",
-            "width": 17
+            "width": 11
         },
         {
             "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin",
@@ -1048,7 +1048,7 @@
             "name": "LilycoveCity_ContestLobby_Layout",
             "primary_tileset": "gTileset_Building",
             "secondary_tileset": "gTileset_Contest",
-            "width": 31
+            "width": 23
         },
         {
             "blockdata_filepath": "data/layouts/LilycoveCity_ContestHall/map.bin",
@@ -1357,7 +1357,7 @@
             "id": "LAYOUT_MT_CHIMNEY",
             "name": "MtChimney_Layout",
             "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lavaridge",
+            "secondary_tileset": "gTileset_Sootopolis",
             "width": 40
         },
         {
@@ -2727,8 +2727,8 @@
             "id": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
             "name": "LilycoveCity_DepartmentStoreElevator_Layout",
             "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_BattleFrontier",
-            "width": 5
+            "secondary_tileset": "gTileset_OilPlatform",
+            "width": 4
         },
         {
             "blockdata_filepath": "data/layouts/Underwater1/map.bin",
@@ -2746,8 +2746,8 @@
             "height": 10,
             "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_1F",
             "name": "MossdeepCity_SpaceCenter_1F_Layout",
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Facility",
+            "primary_tileset": "gTileset_Building",
+            "secondary_tileset": "gTileset_GenericBuilding",
             "width": 16
         },
         {
@@ -2756,8 +2756,8 @@
             "height": 10,
             "id": "LAYOUT_MOSSDEEP_CITY_SPACE_CENTER_2F",
             "name": "MossdeepCity_SpaceCenter_2F_Layout",
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Facility",
+            "primary_tileset": "gTileset_Building",
+            "secondary_tileset": "gTileset_GenericBuilding",
             "width": 16
         },
         {
@@ -2897,7 +2897,7 @@
             "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
             "name": "SouthernIsland_Exterior_Layout",
             "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Rustboro",
+            "secondary_tileset": "gTileset_Fortree",
             "width": 33
         },
         {
@@ -2907,7 +2907,7 @@
             "id": "LAYOUT_SOUTHERN_ISLAND_INTERIOR",
             "name": "SouthernIsland_Interior_Layout",
             "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Rustboro",
+            "secondary_tileset": "gTileset_Fortree",
             "width": 27
         },
         {

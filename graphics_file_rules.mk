@@ -72,7 +72,7 @@ $(TILESETGFXDIR)/secondary/slateport/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 504
 
 $(TILESETGFXDIR)/secondary/mauville/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 503
+	$(GFX) $< $@ -num_tiles 432
 
 $(TILESETGFXDIR)/secondary/lavaridge/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 450
@@ -84,7 +84,7 @@ $(TILESETGFXDIR)/secondary/pacifidlog/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 504
 
 $(TILESETGFXDIR)/secondary/sootopolis/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 328
+	$(GFX) $< $@ -num_tiles 192
 
 SOOTOPOLISANIMDIR := $(TILESETGFXDIR)/secondary/sootopolis/anim
 
@@ -148,7 +148,7 @@ $(TILESETGFXDIR)/secondary/unused_1/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 17
 
 $(TILESETGFXDIR)/secondary/meteor_falls/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 460
+	$(GFX) $< $@ -num_tiles 432
 
 $(TILESETGFXDIR)/secondary/oceanic_museum/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 319
@@ -244,7 +244,7 @@ $(TILESETGFXDIR)/secondary/mossdeep_gym/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 82
 
 $(TILESETGFXDIR)/secondary/sootopolis_gym/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 484
+	$(GFX) $< $@ -num_tiles 80
 
 $(TILESETGFXDIR)/secondary/trick_house_puzzle/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 294
