@@ -2179,7 +2179,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_FELECHOE] = {
+    [SPECIES_HELECHOE] = {
         .baseHP        = 88,
         .baseAttack    = 83,
         .baseDefense   = 84,
@@ -2427,7 +2427,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_CRABIX] = {
+    [SPECIES_CRABBIX] = {
         .baseHP        = 44,
         .baseAttack    = 24,
         .baseDefense   = 34,
@@ -3016,7 +3016,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_MECHCRAB] = {
+    [SPECIES_MECHRAB] = {
         .baseHP        = 50,
         .baseAttack    = 50,
         .baseDefense   = 60,
@@ -3202,7 +3202,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_VUGOO] = {
+    [SPECIES_VOGOO] = {
         .baseHP        = 50,
         .baseAttack    = 50,
         .baseDefense   = 50,
@@ -3357,7 +3357,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_POWERGAS] = {
+    [SPECIES_POWERGASS] = {
         .baseHP        = 45,
         .baseAttack    = 65,
         .baseDefense   = 95,
@@ -3822,7 +3822,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_SAXIMAU] = {
+    [SPECIES_SAXIMAUX] = {
         .baseHP        = 80,
         .baseAttack    = 75,
         .baseDefense   = 82,
@@ -4473,7 +4473,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_EMETHE] = {
+    [SPECIES_EMETRIK] = {
         .baseHP        = 80,
         .baseAttack    = 100,
         .baseDefense   = 75,
@@ -4597,7 +4597,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = FALSE,
     },
 
-    [SPECIES_MIGTHDRA] = {
+    [SPECIES_MIGHTDRA] = {
         .baseHP        = 93,
         .baseAttack    = 117,
         .baseDefense   = 73,
@@ -6705,7 +6705,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = TRUE,
     },
 
-    [SPECIES_TRUFALO] = {
+    [SPECIES_TRUFFALO] = {
         .baseHP        = 125,
         .baseAttack    = 105,
         .baseDefense   = 65,
@@ -11758,7 +11758,7 @@ const struct BaseStats gBaseStats[] = {
         .noFlip = TRUE,
     },
 
-    [SPECIES_COPYCATTE] = {
+    [SPECIES_COPYKATTE] = {
         .baseHP        = 83,
         .baseAttack    = 105,
         .baseDefense   = 55,
