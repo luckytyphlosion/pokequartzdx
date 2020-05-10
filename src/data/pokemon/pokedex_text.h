@@ -5,112 +5,112 @@ const u8 gDummyPokedexText[] = _(
     "at this time.");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "BULBASAUR can be seen napping in bright\n"
-    "sunlight. There is a seed on its back.\n"
-    "By soaking up the sun's rays, the seed\n"
-    "grows progressively larger.");
+    "Chapebaya often sleeps high on top of Pecha\n"
+    "Berry trees and falls off once it wakes up.\n"
+    "On sunny days, it's not uncommon for it\n"
+    "to land on an unsuspecting Trainer's head.");
 
 const u8 gIvysaurPokedexText[] = _(
-    "To support its bulb, IVYSAUR's legs\n"
-    "grow sturdy. If it spends more time lying in\n"
-    "the sunlight, the bud will soon bloom into\n"
-    "a large flower.");
+    "Though Denpecha is typically immobile, it\n"
+    "can make small hops to find better soil\n"
+    "This Pokémon's large, thick leaves\n"
+    "strongly resemble unripe Pecha Berries.");
 
 const u8 gVenusaurPokedexText[] = _(
-    "VENUSAUR's flower is said to take on vivid\n"
-    "colors if it gets plenty of nutrition and\n"
-    "sunlight. The flower's aroma soothes the\n"
-    "emotions of people.");
+    "Denfrota's trunk is nearly inpenetrable\n"
+    "due to minerals it absorbed from the soil.\n"
+    "Legends state that it can grow stronger\n"
+    "when doused in Chaos energy…");
 
 const u8 gCharmanderPokedexText[] = _(
-    "The flame that burns at the tip of its\n"
-    "tail is an indication of its emotions.\n"
-    "The flame wavers when CHARMANDER is\n"
-    "happy, and blazes when it is enraged.");
+    "When startled, its fur becomes hot enough\n"
+    "to burn the ground underneath its feet.\n"
+    "Because of this, a fleeing Coalchu will\n"
+    "typically leave trails of embers behind.");
 
 const u8 gCharmeleonPokedexText[] = _(
-    "Without pity, its sharp claws destroy foes.\n"
-    "If it encounters a strong enemy, it\n"
-    "becomes agitated, and the flame on its\n"
-    "tail flares with a bluish white color.");
+    "Its keen nose can sniff out prey,\n"
+    "no matter where it may be hiding.\n"
+    "If one smells traces of another Rallama,\n"
+    "it'll grow agitated and flare its tail up.");
 
 const u8 gCharizardPokedexText[] = _(
-    "A CHARIZARD flies about in search of\n"
-    "strong opponents. It breathes intense\n"
-    "flames that can melt any material. However,\n"
-    "it will never torch a weaker foe.");
+    "Roellama has a short fuse and is easily\n"
+    "enraged into a giant incinerating flame.\n"
+    "Legends state that it can grow stronger\n"
+    "when doused in Chaos energy…");
 
 const u8 gSquirtlePokedexText[] = _(
-    "Its shell is not just for protection.\n"
-    "Its rounded shape and the grooves on its\n"
-    "surface minimize resistance in water,\n"
-    "enabling SQUIRTLE to swim at high speeds.");
+    "Todad spends its time playing carefreely\n"
+    "in ponds and lakes. If under attack, it\n"
+    "will Bubble its attacker away. If this\n"
+    "fails, it will cry out for help.");
 
 const u8 gWartortlePokedexText[] = _(
-    "Its large tail is covered with rich, thick\n"
-    "fur that deepens in color with age.\n"
-    "The scratches on its shell are evidence\n"
-    "of this POKéMON's toughness in battle.");
+    "Shroad require huge volumes of water to not\n"
+    "only sustain itself on land, but to fuel\n"
+    "its attacks. A group of Shroad can easily\n"
+    "swallow an entire lake overnight.");
 
 const u8 gBlastoisePokedexText[] = _(
-    "The waterspouts that protrude from its\n"
-    "shell are highly accurate. Their bullets of\n"
-    "water can precisely nail tin cans from\n"
-    "a distance of over 160 feet.");
+    "Its cannon arms can draw water from air,\n"
+    "which allows it to survive on land.\n"
+    "Legends state that it can grow stronger\n"
+    "when doused in Chaos energy…");
 
 const u8 gCaterpiePokedexText[] = _(
-    "Its voracious appetite compels it to\n"
-    "devour leaves bigger than itself without\n"
-    "hesitation. It releases a terribly strong\n"
-    "odor from its antennae.");
+    "Eating is like a competition for groups of\n"
+    "Larvet, because the more they eat, the\n"
+    "stronger they will become when they evolve.\n"
+    "Grass Pokémon avoid them at all costs.");
 
 const u8 gMetapodPokedexText[] = _(
-    "Its shell is as hard as an iron slab.\n"
-    "A METAPOD does not move very much\n"
-    "because it is preparing its soft innards\n"
-    "for evolution inside the shell.");
+    "It keeps predators away with the face-like\n"
+    "markings on its body, which it needs as\n"
+    "it can't fight much on its own. The shell's\n"
+    "flexibility makes up for its brittleness.");
 
 const u8 gButterfreePokedexText[] = _(
-    "It has a superior ability to search for\n"
-    "delicious honey from flowers. It can seek,\n"
-    "extract, and carry honey from flowers\n"
-    "blooming over six miles away.");
+    "With its tiny, streamlined body, it flies\n"
+    "through the air gracefully at the speed\n"
+    "of a jet. If it crashes into you at top\n"
+    "speed, both of you will be badly injured!");
 
 const u8 gWeedlePokedexText[] = _(
-    "A WEEDLE has an extremely acute sense\n"
-    "of smell. It distinguishes its favorite\n"
-    "kinds of leaves from those it dislikes by\n"
-    "sniffing with its big red proboscis (nose).");
+    "Using the long stinger on its face, it can\n"
+    "siphon blood and inject poison into its\n"
+    "opponent. Sometimes it will sting itself\n"
+    "to regulate its blood pressure.");
 
 const u8 gKakunaPokedexText[] = _(
-    "It remains virtually immobile while it\n"
-    "clings to a tree. However, on the inside,\n"
-    "it busily prepares for evolution. This is\n"
-    "evident from how hot its shell becomes.");
+    "When it has gathered enough blood, Drosofly\n"
+    "will hand from a tree branch and evolve.\n"
+    "Sometimes it hangs from a leaf and falls\n"
+    "off without sustaining damage..");
 
 const u8 gBeedrillPokedexText[] = _(
-    "A BEEDRILL is extremely territorial.\n"
-    "For safety reasons, no one should \n"
-    "ever approach its nest. If angered,\n"
-    "they will attack in a swarm.");
+    "It not only has a deadly sting, but it\n"
+    "makes an awful sound like somebody badly\n"
+    "playing a trumpet before it swoops down\n"
+    "onto its prey.");
 
 const u8 gPidgeyPokedexText[] = _(
-    "It has an extremely sharp sense of\n"
-    "direction. It can unerringly return home to\n"
-    "its nest, however far it may be removed\n"
-    "from its familiar surroundings.");
+    "Ornlil can't digest its food properly, so\n"
+    "its parents regurgitate leftovers for it.\n"
+    "It tries to learn how to fly by watching\n"
+    "its parents hunt for food.");
 
 const u8 gPidgeottoPokedexText[] = _(
-    "This POKéMON flies around, patrolling its\n"
-    "large territory. If its living space is\n"
-    "violated, it shows no mercy in thoroughly\n"
-    "punishing the foe with its sharp claws.");
+    "Wasoo makes itself known by singing a\n"
+    "beautiful song. It controls sections of\n"
+    "forests to protect the Ornlil. Other Wasoo\n"
+    "compete with each other to see who's louder.");
 
 const u8 gPidgeotPokedexText[] = _(
-    "This POKéMON has gorgeous, glossy\n"
-    "feathers. Many TRAINERS are so captivated\n"
-    "by the beautiful feathers on its head that\n"
-    "they choose PIDGEOT as their POKéMON.");
+    "Known as the 'King of the Forest', it\n"
+    "flies around its home defending it from\n"
+    "trouble. It threatens foes by puffing out\n"
+    "its chest and showing its belly marks.");
 
 const u8 gRattataPokedexText[] = _(
     "A RATTATA is cautious in the extreme.\n"

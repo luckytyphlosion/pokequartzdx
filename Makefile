@@ -31,7 +31,7 @@ else
 EXE :=
 endif
 
-TITLE       := POKEMON EMER
+TITLE       := POKEMON QUDX
 GAME_CODE   := BPEE
 MAKER_CODE  := 01
 REVISION    := 0
@@ -64,13 +64,13 @@ GCC_VER = $(shell $(CC) -dumpversion)
 ifeq ($(MODERN),0)
 CC1             := tools/agbcc/bin/agbcc$(EXE)
 override CFLAGS += -mthumb-interwork -Wimplicit -Wparentheses -Werror -O2 -fhex-asm
-ROM := pokeemerald.gba
-OBJ_DIR := build/emerald
+ROM := pokequartzdx.gba
+OBJ_DIR := build/quartzdx
 LIBPATH := -L ../../tools/agbcc/lib
 else
 CC1              = $(shell $(CC) --print-prog-name=cc1) -quiet
 override CFLAGS += -mthumb -mthumb-interwork -O2 -mabi=apcs-gnu -mtune=arm7tdmi -march=armv4t -fno-toplevel-reorder -fno-aggressive-loop-optimizations -Wno-pointer-to-int-cast
-ROM := pokeemerald_modern.gba
+ROM := pokequartzdx_modern.gba
 OBJ_DIR := build/modern
 LIBPATH := -L $(TOOLCHAIN)/lib/gcc/arm-none-eabi/$(GCC_VER)/thumb -L $(TOOLCHAIN)/arm-none-eabi/lib/thumb
 endif
