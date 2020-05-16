@@ -113,52 +113,52 @@ const u8 gPidgeotPokedexText[] = _(
     "its chest and showing its belly marks.");
 
 const u8 gRattataPokedexText[] = _(
-    "A RATTATA is cautious in the extreme.\n"
-    "Even while it is asleep, it constantly\n"
-    "moves its ears and listens for danger.\n"
-    "It will make its nest anywhere.");
+    "Unless there is danger nearby, it will\n"
+    "never move as it stays in the same position\n"
+    "even when sleeping. In these cases, only\n"
+    "a strong gust of wind can disrupt it.");
 
 const u8 gRaticatePokedexText[] = _(
-    "A RATICATE's sturdy fangs grow steadily.\n"
-    "To keep them ground down, it gnaws on\n"
-    "rocks and logs. It may even chew on the\n"
-    "walls of houses.");
+    "Despite being in a permanent comatose\n"
+    "state, it will talk, walk and eat as if\n"
+    "it were fully awake. It gains lots of\n"
+    "power if it dreams about battling.");
 
 const u8 gSpearowPokedexText[] = _(
-    "Its loud cry can be heard over half a mile\n"
-    "away. If its high, keening cry is heard\n"
-    "echoing all around, it is a sign that they\n"
-    "are warning each other of danger.");
+    "Some cultures take part in a 'Turkur dance',\n"
+    "a dance inspired by Turkur's odd way of\n"
+    "walking. It is renowned for being a\n"
+    "popular Thanksgiving appetizer.");
 
 const u8 gFearowPokedexText[] = _(
-    "Its long neck and elongated beak are\n"
-    "ideal for catching prey in soil or water.\n"
-    "It deftly moves this extended and skinny\n"
-    "beak to pluck prey.");
+    "Males spread open their colorful tails\n"
+    "fully when it is mating season.\n"
+    "The one with the most attractive feathers\n"
+    "and songs wins the most mates.");
 
 const u8 gEkansPokedexText[] = _(
-    "An EKANS curls itself up in a spiral while\n"
-    "it rests. This position allows it to quickly\n"
-    "respond to an enemy from any direction\n"
-    "with a threat from its upraised head.");
+    "A parasitic Pokémon that sticks onto a\n"
+    "large mammalian Pokémon and doesn't let\n"
+    "go until it evolves. Fortunately, it\n"
+    "can't suck enough blood to harm its victim.");
 
 const u8 gArbokPokedexText[] = _(
-    "This POKéMON has a terrifically strong\n"
-    "constricting power. It can even flatten\n"
-    "steel oil drums. Once it wraps its body\n"
-    "around its foe, escaping is impossible.");
+    "It became a hunter because it's too large\n"
+    "to maintain its parasitic lifestyle.\n"
+    "Old habits die hard as it still attempts\n"
+    "to leech from large mammalian Pokémon.");
 
 const u8 gPikachuPokedexText[] = _(
-    "It stores electricity in the electric sacs\n"
-    "on its cheeks. When it releases pent-up\n"
-    "energy in a burst, the electric power is\n"
-    "equal to a lightning bolt.");
+    "Covolts hangs motionless from trees until\n"
+    "it is ready to evolve. At night, its red\n"
+    "glowing tail lights the way for adventurers\n"
+    "that find themselves lost in the forest.");
 
 const u8 gRaichuPokedexText[] = _(
-    "If it stores too much electricity, its\n"
-    "behavior turns aggressive. To avoid this,\n"
-    "it occasionally discharges excess energy\n"
-    "and calms itself down.");
+    "It wears a piece of its discarded shell\n"
+    "over its head. Its wings are powerful\n"
+    "enough to support it during flight\n"
+    "without much difficulty.");
 
 const u8 gSandshrewPokedexText[] = _(
     "When it curls up in a ball, it can make any\n"
