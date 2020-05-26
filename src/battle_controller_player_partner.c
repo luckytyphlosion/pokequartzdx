@@ -1320,7 +1320,7 @@ static void PlayerPartnerHandleDrawTrainerPic(void)
 
         gSprites[gBattlerSpriteIds[gActiveBattler]].oam.paletteNum = gActiveBattler;
         gSprites[gBattlerSpriteIds[gActiveBattler]].pos2.x = 240;
-        gSprites[gBattlerSpriteIds[gActiveBattler]].data[0] = -2;
+        gSprites[gBattlerSpriteIds[gActiveBattler]].data[0] = -3;
         gSprites[gBattlerSpriteIds[gActiveBattler]].callback = sub_805D7AC;
     }
     else // otherwise use front sprite
@@ -1332,7 +1332,7 @@ static void PlayerPartnerHandleDrawTrainerPic(void)
         gSprites[gBattlerSpriteIds[gActiveBattler]].oam.paletteNum = IndexOfSpritePaletteTag(gTrainerFrontPicPaletteTable[trainerPicId].tag);
         gSprites[gBattlerSpriteIds[gActiveBattler]].pos2.x = 240;
         gSprites[gBattlerSpriteIds[gActiveBattler]].pos2.y = 48;
-        gSprites[gBattlerSpriteIds[gActiveBattler]].data[0] = -2;
+        gSprites[gBattlerSpriteIds[gActiveBattler]].data[0] = -3;
         gSprites[gBattlerSpriteIds[gActiveBattler]].callback = sub_805D7AC;
         gSprites[gBattlerSpriteIds[gActiveBattler]].oam.affineMode = ST_OAM_AFFINE_OFF;
         gSprites[gBattlerSpriteIds[gActiveBattler]].hFlip = 1;

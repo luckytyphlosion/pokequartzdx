@@ -2669,7 +2669,7 @@ static void SpriteCb_MoveWildMonToRight(struct Sprite *sprite)
 {
     if ((gIntroSlideFlags & 1) == 0)
     {
-        sprite->pos2.x += 2;
+        sprite->pos2.x += 3;
         if (sprite->pos2.x == 0)
         {
             sprite->callback = SpriteCb_WildMonShowHealthbox;
@@ -2844,7 +2844,7 @@ static void oac_poke_ally_(struct Sprite *sprite)
 {
     if (!(gIntroSlideFlags & 1))
     {
-        sprite->pos2.x -= 2;
+        sprite->pos2.x -= 3;
         if (sprite->pos2.x == 0)
         {
             sprite->callback = SpriteCallbackDummy_3;
