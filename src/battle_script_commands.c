@@ -1750,7 +1750,7 @@ static void Cmd_attackanimation(void)
     if ((gHitMarker & HITMARKER_NO_ANIMATIONS) && (gCurrentMove != MOVE_TRANSFORM && gCurrentMove != MOVE_SUBSTITUTE))
     {
         BattleScriptPush(gBattlescriptCurrInstr + 1);
-        gBattlescriptCurrInstr = BattleScript_Pausex20;
+        gBattlescriptCurrInstr = BattleScript_Pausex8;
         gBattleScripting.animTurn++;
         gBattleScripting.animTargetsHit++;
     }
@@ -1791,7 +1791,7 @@ static void Cmd_attackanimation(void)
         else
         {
             BattleScriptPush(gBattlescriptCurrInstr + 1);
-            gBattlescriptCurrInstr = BattleScript_Pausex20;
+            gBattlescriptCurrInstr = BattleScript_Pausex8;
         }
     }
 }
@@ -4284,7 +4284,7 @@ static void Cmd_playanimation(void)
     else if (gHitMarker & HITMARKER_NO_ANIMATIONS)
     {
         BattleScriptPush(gBattlescriptCurrInstr + 7);
-        gBattlescriptCurrInstr = BattleScript_Pausex20;
+        gBattlescriptCurrInstr = BattleScript_Pausex8;
     }
     else if (gBattlescriptCurrInstr[2] == B_ANIM_RAIN_CONTINUES
              || gBattlescriptCurrInstr[2] == B_ANIM_SUN_CONTINUES
