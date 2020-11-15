@@ -6617,10 +6617,7 @@ static void Task_PokemonSummaryAnimateAfterDelay(u8 taskId)
 
 void BattleAnimateFrontSprite(struct Sprite* sprite, u16 species, bool8 noCry, u8 arg3)
 {
-    if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_x2000000)))
-        DoMonFrontSpriteAnimation(sprite, species, noCry, arg3 | 0x80);
-    else
-        DoMonFrontSpriteAnimation(sprite, species, noCry, arg3);
+    DoMonFrontSpriteAnimation(sprite, species, noCry, arg3 | 0x80);
 }
 
 void DoMonFrontSpriteAnimation(struct Sprite* sprite, u16 species, bool8 noCry, u8 arg3)
@@ -6638,33 +6635,9 @@ void DoMonFrontSpriteAnimation(struct Sprite* sprite, u16 species, bool8 noCry, 
         pan = 0;
         break;
     }
-    if (arg3 & 0x80)
-    {
-        if (!noCry)
-            PlayCry1(species, pan);
-        sprite->callback = SpriteCallbackDummy;
-    }
-    else
-    {
-        if (!noCry)
-        {
-            PlayCry1(species, pan);
-            if (HasTwoFramesAnimation(species))
-                StartSpriteAnim(sprite, 1);
-        }
-        if (sMonAnimationDelayTable[species - 1] != 0)
-        {
-            u8 taskId = CreateTask(Task_AnimateAfterDelay, 0);
-            STORE_PTR_IN_TASK(sprite, taskId, 0);
-            gTasks[taskId].data[2] = sMonFrontAnimIdsTable[species - 1];
-            gTasks[taskId].data[3] = sMonAnimationDelayTable[species - 1];
-        }
-        else
-        {
-            LaunchAnimationTaskForFrontSprite(sprite, sMonFrontAnimIdsTable[species - 1]);
-        }
-        sprite->callback = SpriteCallbackDummy_2;
-    }
+     if (!noCry)
+        PlayCry1(species, pan);
+    sprite->callback = SpriteCallbackDummy;
 }
 
 void PokemonSummaryDoMonAnimation(struct Sprite* sprite, u16 species, bool8 oneFrame)
@@ -6695,15 +6668,7 @@ void StopPokemonAnimationDelayTask(void)
 
 void BattleAnimateBackSprite(struct Sprite* sprite, u16 species)
 {
-    if (gHitMarker & HITMARKER_NO_ANIMATIONS && !(gBattleTypeFlags & (BATTLE_TYPE_LINK | BATTLE_TYPE_x2000000)))
-    {
-        sprite->callback = SpriteCallbackDummy;
-    }
-    else
-    {
-        LaunchAnimationTaskForBackSprite(sprite, GetSpeciesBackAnimSet(species));
-        sprite->callback = SpriteCallbackDummy_2;
-    }
+    sprite->callback = SpriteCallbackDummy;
 }
 
 u8 sub_806EF08(u8 arg0)
