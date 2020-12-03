@@ -3965,6 +3965,7 @@ static void SpriteCB_Pokemon(struct Sprite *sprite)
     {
         sprite->data[1] = IsMonSpriteNotFlipped(sprite->data[0]);
         PlayMonCry();
+	    PokemonSummaryDoMonAnimation(sprite, sprite->data[0], summary->isEgg);
     }
 }
 
