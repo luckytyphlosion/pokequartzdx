@@ -14,9 +14,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BULBASAUR] =
     {
-        .categoryName = _("SEED"),
-        .height = 7,
-        .weight = 69,
+        .categoryName = _("Peach"),
+        .height = 2,
+        .weight = 3,
         .description = gBulbasaurPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
@@ -26,9 +26,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_IVYSAUR] =
     {
-        .categoryName = _("SEED"),
+        .categoryName = _("Peach Log"),
         .height = 10,
-        .weight = 130,
+        .weight = 230,
         .description = gIvysaurPokedexText,
         .pokemonScale = 335,
         .pokemonOffset = 13,
@@ -38,9 +38,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_VENUSAUR] =
     {
-        .categoryName = _("SEED"),
-        .height = 20,
-        .weight = 1000,
+        .categoryName = _("Peach Tree"),
+        .height = 40,
+        .weight = 2995,
         .description = gVenusaurPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,

@@ -5,22 +5,22 @@ const u8 gDummyPokedexText[] = _(
     "at this time.");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "Chapebaya often sleeps high on top of Pecha\n"
-    "Berry trees and falls off once it wakes up.\n"
-    "On sunny days, it's not uncommon for it\n"
-    "to land on an unsuspecting Trainer's head.");
+    "It sleeps high on top of Pecha Berry trees\n"
+	"and falls once it wakes up. On sunny days,\n"
+	"it's not uncommon for one to land on an\n"
+	"unsuspecting trainer's head.");
 
 const u8 gIvysaurPokedexText[] = _(
-    "Though Denpecha is typically immobile, it\n"
-    "can make small hops to find better soil\n"
-    "This Pokémon's large, thick leaves\n"
-    "strongly resemble unripe Pecha Berries.");
+	"Though typically immobile, it can make small\n"
+	"hops to find better soil. When frightened,\n"
+	"it closes its eyes. Its large, thick leaves\n"
+	"resemble unripe Pecha Berries.");
 
 const u8 gVenusaurPokedexText[] = _(
-    "Denfrota's trunk is nearly inpenetrable\n"
-    "due to minerals it absorbed from the soil.\n"
-    "Legends state that it can grow stronger\n"
-    "when doused in Chaos energy…");
+	"A Denfrota's trunk is nearly impenetrable\n"
+	"due to minerals it leeches from the soil.\n"
+	"Legends state that it can grow stronger\n"
+	"when it absorbs Chaos energy.");
 
 const u8 gCharmanderPokedexText[] = _(
     "When startled, its fur becomes hot enough\n"
