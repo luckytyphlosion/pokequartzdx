@@ -40,7 +40,7 @@ const struct PokedexEntry gPokedexEntries[] =
     {
         .categoryName = _("Peach Tree"),
         .height = 40,
-        .weight = 2995,
+        .weight = 3995,
         .description = gVenusaurPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
